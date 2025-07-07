@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -35,74 +35,69 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-customer-churn-analysis-10-2023",
-          title: 'Customer churn analysis - 10/2023',
-          description: "Utilised Power Query, DAX, and visualisation tools within Power BI to analyse a fictional telecom company&#39;s dataset, examining customer churn patterns and facilitating data-driven insights for retention strategies.",
+            },},{id: "projects-customer-churn-analysis",
+          title: 'Customer churn analysis',
+          description: "Data Analysis Project Oct 2023  Utilised Power Query, DAX, and visualisation tools within Power BI to analyse a fictional telecom company&#39;s dataset, examining customer churn patterns and facilitating data-driven insights for retention strategies.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/da_uni/DA1_CustomerChurnAnalysis/";
-            },},{id: "projects-customer-targeting-visualisations-kpmg-data-analytics-consulting-virtual-internship-11-2023",
-          title: 'Customer targeting visualisations (KPMG Data Analytics Consulting virtual internship) - 11/2023',
-          description: "Utilised Power Query, DAX, and visualisation tools within Power BI to create a dashboard for the client that specifies who they should be targeting in their customer list as well as the broader market segment.",
+              window.location.href = "/projects/da/DA1_CustomerChurnAnalysis/";
+            },},{id: "projects-customer-targeting-visualisations",
+          title: 'Customer targeting visualisations',
+          description: "KPMG Data Analytics Consulting virtual internship Nov 2023  Utilised Power Query, DAX, and visualisation tools within Power BI to create a dashboard for the client that specifies who they should be targeting in their customer list as well as the broader market segment.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/da_uni/DA2_KPMG/";
-            },},{id: "projects-dashboards-for-call-center-manager-pwc-power-bi-virtual-case-experience-part-1-12-2023",
-          title: 'Dashboards for Call Center Manager (PWC Power BI virtual case experience Part 1)...',
-          description: "Utilised Power Query, DAX, and visualisation tools within Power BI to create dashboards for the Call Center Manager to understand todays trends, reflect customer demographics and insights regarding customer retention.",
+              window.location.href = "/projects/da/DA2_KPMG/";
+            },},{id: "projects-dashboards-for-call-center-manager",
+          title: 'Dashboards for Call Center Manager',
+          description: "PWC Power BI virtual case experience Part 1 Dec 2023  Utilised Power Query, DAX, and visualisation tools within Power BI to create dashboards for the Call Center Manager to understand todays trends, reflect customer demographics and insights regarding customer retention.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/da_uni/DA3_PWC1/";
-            },},{id: "projects-dashboards-for-hr-manager-pwc-power-bi-virtual-case-experience-part-2-12-2023",
-          title: 'Dashboards for HR Manager (PWC Power BI virtual case experience Part 2) -...',
-          description: "Utilised Power Query, DAX, and visualisation tools within Power BI to create visualizations to represent HR data, particularly focusing on gender-related KPIs.",
+              window.location.href = "/projects/da/DA3_PWC1/";
+            },},{id: "projects-dashboards-for-hr-manager",
+          title: 'Dashboards for HR Manager',
+          description: "PWC Power BI virtual case experience Part 2 Dec 2023  Utilised Power Query, DAX, and visualisation tools within Power BI to create visualizations to represent HR data, particularly focusing on gender-related KPIs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/da_uni/DA3_PWC2/";
-            },},{id: "projects-twitter-data-collection-and-analysis-data-engineering-5-2022",
-          title: 'Twitter data collection and analysis (Data Engineering) - 5/2022',
-          description: "Use the power of Twitter API to collect, analyse and visualise one week of data related to Elon Musk to gain insights into the social media behavior of Twitter users.",
+              window.location.href = "/projects/da/DA3_PWC2/";
+            },},{id: "projects-twitter-data-collection-and-analysis",
+          title: 'Twitter data collection and analysis',
+          description: "Data Engineering Project May 2022  Use the power of Twitter API to collect, analyse and visualise one week of data related to Elon Musk to gain insights into the social media behavior of Twitter users.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/da_uni/U_DataEngineering/";
-            },},{id: "projects-database-system-for-a-car-rental-firm-data-modelling-10-2021",
-          title: 'Database system for a Car Rental Firm (Data Modelling) - 10/2021',
-          description: "Create a database for a &quot;real-life&quot; case-study - a car rental company. Includes written conceptual model, written and code for logical and physical models.",
+              window.location.href = "/projects/da/U_DataEngineering/";
+            },},{id: "projects-database-system-for-a-car-rental-firm",
+          title: 'Database system for a Car Rental Firm',
+          description: "Data Modelling Project Oct 2021  Create a database for a &quot;real-life&quot; case-study - a car rental company. Includes written conceptual model, written and code for logical and physical models.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/da_uni/U_DataModelling/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+              window.location.href = "/projects/da/U_DataModelling/";
+            },},{id: "projects-454-illustrator",
+          title: '454 Illustrator',
+          description: "E-commerce website May 2024  Illustrations storefront built with ASP.NET Core MVC &amp; Razor, featuring SQL Server CRUD operations, Identity Framework authentication and Stripe payments. Uses custom tag helpers and scalable project architecture, all deployed to Azure.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/dev/10_project/";
-            },},{id: "projects-e-commerce-app-with-net-core-and-angular-9-2024",
-          title: 'E-commerce App with .NET Core and Angular - 9/2024',
-          description: "Developing a full-stack e-commerce application using .NET Core 8 and Angular 18. The project involves setting up a multi-project architecture, building a client-side UI with Angular CLI, and using ASP.NET Identity for secure user authentication. Key features include a multi-step form, order creation from a shopping basket, and payment processing via Stripe. Additionally, implementing Repository and Unit of Work patterns, and deploying the application to Azure.",
+              window.location.href = "/projects/dev/454Web/";
+            },},{id: "projects-artstore",
+          title: 'ArtStore',
+          description: "E-commerce App with .NET Core and Angular Sep 2024  Full-stack e-commerce app built with .NET Core 8 and Angular 18 using a multi-project architecture. It features secure ASP.NET Identity authentication, a multi-step checkout form with basket-to-order flow, Stripe payment integration, and follows Repository &amp; Unit of Work patterns. Deployed to Azure for scalable hosting.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev/ArtStore/";
-            },},{id: "projects-454-illustrator-e-commerce-website-5-2024",
-          title: '454 illustrator E-commerce website - 5/2024',
-          description: "Using .NET, ASP.NET Core MVC, and Razor to create and deploy an e-commerce site for showcasing and selling illustrations. Employing Visual Studio 2022 and SQL Server Management Studio for CRUD operations, Identity Framework for user authentication, and Stripe for payments. Gaining skills in large-scale project architecture, custom tag helpers, and Azure deployment. Mastering the latest ASP.NET Core MVC advancements for scalable web apps.",
+            },},{id: "projects-resell-track",
+          title: 'Resell Track',
+          description: "iOS app Sep 2023  Cross-platform SwiftUI app for iPhone, iPad and Mac that lets you organise purchases, monitor item values over time and log sales in a clean, intuitive interface.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/dev_uni/454Web/";
-            },},{id: "projects-resell-track-ios-app-9-2023",
-          title: 'Resell Track (iOS app) - 9/2023',
-          description: "An iOS app written by SwiftUI that works on iPhones, iPads and Macs. Resell Track helps users organise purchased items, track their value, and record sales.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/dev_uni/ResellTrack/";
-            },},{id: "projects-scuba-diving-calculation-assistant-app-java-5-2022",
-          title: 'Scuba Diving Calculation Assistant App (Java) - 5/2022',
-          description: "A Java application designed to automate some simple and complex calculations that are common in the dive industry. The GUI was created from a text-based prototype using Apache NetBeans. Junit was used for unit testing.",
+              window.location.href = "/projects/dev/ResellTrack/";
+            },},{id: "projects-scuba-diving-calculation-assistant",
+          title: 'Scuba Diving Calculation Assistant',
+          description: "Application Development Project May 2022  Java Swing desktop tool (built in NetBeans) that automates both basic and advanced dive-industry calculations, with JUnit tests ensuring accuracy and reliability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev_uni/U_AppDev/";
-            },},{id: "projects-inventory-management-system-cloud-computing-project-10-2022",
-          title: 'Inventory Management System (Cloud Computing Project) - 10/2022',
-          description: "Use Node-RED and other cloud services and tools to develop a cloud-hosted application to assist with Inventory Management.",
+            },},{id: "projects-inventory-management-system",
+          title: 'Inventory Management System',
+          description: "Cloud Computing Project Oct 2022  Built a cloud-hosted inventory app using Node-RED on NeCTAR/IBM Cloud. Designed data flows for real-time stock tracking, automated low-inventory alerts, and integrated with cloud databases for seamless management.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev_uni/U_CloudComputing/";
-            },},{id: "projects-online-voting-system-devops-project-10-2022",
-          title: 'Online Voting System (DevOps Project) - 10/2022',
-          description: "Develop an Online Voting System and apply DevOps principles and tools for the project&#39;s development processes.",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev_uni/U_DevOps/";
-            },},{id: "projects-kitchenware-content-management-system-no-framework-web-dev-10-2021",
-          title: 'Kitchenware Content Management System (No Framework Web Dev) - 10/2021',
-          description: "Without using any web frameworks, develop a XAMPP enabled website with a backend database for an e-commerce business, providing mechanisms for a web administrator to add, edit and remove content from their website.",
+            },},{id: "projects-kitchenware-content-management-system",
+          title: 'Kitchenware Content Management System',
+          description: "No Framework Web Development Project Oct 2021  Built a PHP/MySQL e-commerce CMS on XAMPP—no external frameworks. Features a custom admin interface for adding, editing and removing products and content.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev_uni/U_WebDev/";
             },},{
