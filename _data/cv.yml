@@ -1,97 +1,179 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: "Tim (Tien) Bui"
+    - name: Professional Title
+      value: "Master of IT (Flinders University) – Aspiring Full-Stack Developer"
+    - name: Email
+      value: "tienbui1508@gmail.com"
+    - name: Website
+      value: "https://tienbui1508.github.io"
+    - name: Location
+      value: "Adelaide, South Australia"
+    - name: LinkedIn
+      value: "https://www.linkedin.com/in/tienbui1508/"
+
+- title: Summary
+  type: nested_list
+  contents:
+    - title:
+      items:
+        - "Master of Information Technology graduate from Flinders University."
+        - "Volunteer IT Support & Website Developer: built a responsive Wix site for a local bookstore, and troubleshoot devices for neighbours."
+        - "Passionate about generative AI—building AI-powered code-assist prototypes."
+        - "Seeking a junior or graduate developer role to apply fast-learning mindset and hands-on web & support experience."
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming & Frameworks
+      items:
+        - "C#"
+        - ".NET Core"
+        - "Angular"
+        - "React"
+        - "Django"
+        - "Python"
+    - title: Web Technologies
+      items:
+        - "HTML5"
+        - "CSS3"
+        - "JavaScript"
+        - "TypeScript"
+        - "Responsive Design"
+        - "Wix"
+    - title: Tools & Platforms
+      items:
+        - "Git"
+        - "GitHub"
+        - "VS Code"
+        - "Jira"
+        - "GitHub Pages"
+    - title: IT Support & Device Assistance
+      items:
+        - "Windows Troubleshooting"
+        - "macOS & iOS Support"
+        - "Help Desk Support & Remote Tools"
+        - "Printer & Email Configuration"
+        - "User Training"
+    - title: Data & Analytics
+      items:
+        - "SQL"
+        - "Power BI"
+        - "Excel"
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Professional Year Program
+      institution: Performance Education, Adelaide, Australia
+      year: 2025 – 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "ACS-approved 49-52 week program with professional development modules and 12-week industry placement."
+    - title: Master’s degree in Information Technology
+      institution: Flinders University, Adelaide, Australia
+      year: 2021 – 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA 6.81/7; University Medal; Chancellor’s Letters of Commendation."
+    - title: Bachelor’s degree in Auditing
+      institution: National Economics University, Hanoi, Vietnam
+      year: 2012 – 2016
+      description:
+        - "GPA 3.73/4; scholarship every semester."
+    - title: Associate Member, CPA Australia
+      institution: CPA Australia (online)
+      year: 2014 – 2021
+      description: []
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: IT Support & Website Developer (Volunteer)
+      institution: Self-initiated / Community, Adelaide, Australia
+      year: Jan 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Built a fully responsive Wix site: template customisation, navigation, SEO best practices."
+        - "Prepared owner training materials for content management."
+        - "Provided Windows/macOS/iOS/Android support to 10+ neighbours; logged & resolved issues."
+    - title: Freelance Excel Developer
+      institution: Self-initiated, Adelaide, Australia
+      year: Jan 2024 – Mar 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Designed an Excel-based roster planner using VLOOKUP, macros, VBA."
+        - "Automated scheduling processes; tailored solution to client needs."
+    - title: Software Dev Simulation
+      institution: Forage / Standard Bank
+      year: Mar 2024
       description:
+        - "Created Power BI dashboards; analysed HR gender-balance KPIs."
+    - title: Software Dev Simulation
+      institution: Forage / Commonwealth Bank
+      year: Feb 2024
+      description:
+        - "Extended C# backend and React/Redux frontend; unit tested with xUnit."
+    - title: Power BI Case Experience
+      institution: Forage / PwC Switzerland
+      year: Dec 2023
+      description:
+        - "Built interactive Power BI dashboards; communicated insights to stakeholders."
+    - title: Data Analytics Internship
+      institution: Forage / KPMG Australia
+      year: Nov 2023
+      description:
+        - "Advised on customer targeting; developed modelling dashboards."
+    - title: Virtual Assistant & Translator
+      institution: Upwork Freelance
+      year: 2016 – 2018
+      description:
+        - "Provided data entry, research, email management; translated business materials."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: ArtStore (Full-stack E-commerce)
+      year: Aug 2024 – Sep 2024
+      description:
+        - ".NET Core 8 + Angular 18; ASP.NET Identity; Stripe integration; Azure deployment."
+    - title: 454 Illustrator (E-commerce)
+      year: May 2024
+      description:
+        - "ASP.NET Core MVC + Razor; Identity Framework; Stripe payments; Azure."
+    - title: Customer Churn Analysis
+      year: Oct 2023
+      description:
+        - "Power BI, Power Query, DAX visualisations for telecom churn insights."
+    - title: Resell Track (iOS App)
+      year: Aug 2023
+      description:
+        - "SwiftUI app for tracking purchases and sales on iPhone/iPad/Mac."
+    - title: Inventory Management System
+      year: Sep 2022 – Oct 2022
+      description:
+        - "Node-RED cloud app on NeCTAR/IBM Cloud for inventory workflows."
+    - title: Online Voting System (DevOps)
+      year: Sep 2022 – Oct 2022
+      description:
+        - ".NET Core API; Azure DevOps CI/CD; Entity Framework; SQL Server."
+    - title: Scuba Diving Calculation Assistant
+      year: Apr 2022 – May 2022
+      description:
+        - "Java Swing GUI; NetBeans; JUnit unit tests for dive industry calculations."
 
-- title: Honors and Awards
+- title: Certifications
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "Microsoft Certified: Power BI Data Analyst Associate (PL300)"
+        - "HackerRank: Java (Basic), C# (Basic), SQL (Advanced)"
+    - year: 2023
       items:
-        - Max Planck Medal
+        - "Forage: KPMG AU Data Analytics Job Simulation"
+        - "Forage: PwC Switzerland Power BI Job Simulation"
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Languages
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "English (Professional Working)"
+    - "Vietnamese (Native Speaker)"
