@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Database system for a Car Rental Firm (Data Modelling) - 10/2021
-description: Create a database for a "real-life" case-study - a car rental company. Includes written conceptual model, written and code for logical and physical models.
+title: Database system for a Car Rental Firm
+description: <strong>Data Modelling Project</strong><br>
+  <em>Oct 2021</em> <br>
+  Create a database for a "real-life" case-study - a car rental company. Includes written conceptual model, written and code for logical and physical models.
 img: /assets/img/dataModelling/dataModelling_ERD.png
 importance: 5
-category: data_uni
+category: data
 related_publications: false
 toc:
   sidebar: left

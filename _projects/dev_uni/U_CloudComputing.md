@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Inventory Management System (Cloud Computing Project) - 10/2022
-description: Use Node-RED and other cloud services and tools to develop a cloud-hosted application to assist with Inventory Management.
+title: Inventory Management System
+description: <strong>Cloud Computing Project</strong><br>
+  <em>Oct 2022</em> <br>
+  Built a cloud-hosted inventory app using Node-RED on NeCTAR/IBM Cloud. Designed data flows for real-time stock tracking, automated low-inventory alerts, and integrated with cloud databases for seamless management.
 img: /assets/img/cloudComputing/cloudComputing_overview.PNG
 importance: 4
 category: dev_uni

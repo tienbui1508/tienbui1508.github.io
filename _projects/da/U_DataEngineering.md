@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Twitter data collection and analysis (Data Engineering) - 5/2022
-description: Use the power of Twitter API to collect, analyse and visualise one week of data related to Elon Musk to gain insights into the social media behavior of Twitter users.
+title: Twitter data collection and analysis
+description: <strong>Data Engineering Project</strong><br>
+  <em>May 2022</em> <br>
+  Use the power of Twitter API to collect, analyse and visualise one week of data related to Elon Musk to gain insights into the social media behavior of Twitter users.
 img: /assets/img/dataEngineering/dataEngineering_wordcloud.png
 importance: 4
-category: data_uni
+category: data
 related_publications: false
 toc:
   sidebar: left

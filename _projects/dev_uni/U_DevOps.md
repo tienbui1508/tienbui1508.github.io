@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Online Voting System (DevOps Project) - 10/2022
-description: Develop an Online Voting System and apply DevOps principles and tools for the project's development processes.
-img: /assets/img/devOps/devOps_1.png
+title: Online Voting System
+description: <strong>DevOps Project</strong><br>
+  <em>Oct 2022</em> <br>
+  Created a secure online voting platform and implemented DevOps practices: automated CI/CD pipelines, containerised services, infrastructure-as-code, and monitoring to streamline development and deployment.
 importance: 3
 category: dev_uni
 related_publications: false

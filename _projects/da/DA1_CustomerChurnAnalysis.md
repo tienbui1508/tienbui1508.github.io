@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Customer churn analysis - 10/2023
-description: Utilised Power Query, DAX, and visualisation tools within Power BI to analyse a fictional telecom company's dataset, examining customer churn patterns and facilitating data-driven insights for retention strategies.
+title: Customer churn analysis
+description: <strong>Data Analysis Project</strong><br>
+  <em>Oct 2023</em> <br>
+  Utilised Power Query, DAX, and visualisation tools within Power BI to analyse a fictional telecom company's dataset, examining customer churn patterns and facilitating data-driven insights for retention strategies.
 img: /assets/img/customerChurnAnalysis/allSteps.png
 importance: 3
-category: data_uni
+category: data
 related_publications: false
 toc:
   sidebar: left
