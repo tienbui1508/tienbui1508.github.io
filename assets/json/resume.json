@@ -25,39 +25,19 @@
       "name": "Programming & Frameworks",
       "icon": "fa-solid fa-code",
       "level": "",
-      "keywords": [
-        "C#",
-        ".NET Core",
-        "Angular",
-        "React",
-        "Django",
-        "Python"
-      ]
+      "keywords": ["C#", ".NET Core", "Angular", "React", "Django", "Python"]
     },
     {
       "name": "Web Technologies",
       "icon": "fa-solid fa-globe",
       "level": "",
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "TypeScript",
-        "Responsive Design",
-        "Wix"
-      ]
+      "keywords": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Responsive Design", "Wix"]
     },
     {
       "name": "Tools & Platforms",
       "icon": "fa-solid fa-laptop-code",
       "level": "",
-      "keywords": [
-        "Git",
-        "GitHub",
-        "VS Code",
-        "Jira",
-        "GitHub Pages"
-      ]
+      "keywords": ["Git", "GitHub", "VS Code", "Jira", "GitHub Pages"]
     },
     {
       "name": "IT Support & Device Assistance",
@@ -78,11 +58,7 @@
       "name": "Data & Analytics",
       "icon": "fa-solid fa-database",
       "level": "",
-      "keywords": [
-        "SQL",
-        "Power BI",
-        "Excel"
-      ]
+      "keywords": ["SQL", "Power BI", "Excel"]
     }
   ],
   "education": [
@@ -106,9 +82,7 @@
       "startDate": "2012-12-31",
       "endDate": "2016-12-31",
       "score": "Excellent",
-      "courses": [
-        "Recognised as a top high-performance student with a GPA of 3.73/4, receiving scholarships in all semesters."
-      ]
+      "courses": ["Recognised as a top high-performance student with a GPA of 3.73/4, receiving scholarships in all semesters."]
     },
     {
       "institution": "CPA Australia",
@@ -295,16 +269,7 @@
       "summary": "Developing a full-stack e-commerce application using .NET Core 8 and Angular 18. The project involves setting up a multi-project architecture, building a client-side UI with Angular CLI, and using ASP.NET Identity for secure user authentication. Key features include a multi-step form, order creation from a shopping basket, and payment processing via Stripe. Additionally, implementing Repository and Unit of Work patterns, and deploying the application to Azure.",
       "url": "https://github.com/tienbui1508/ArtStore",
       "endDate": "2024-09-30",
-      "highlights": [
-        "C#",
-        ".NET",
-        "ASP.NET Identity",
-        "HTML",
-        "CSS",
-        "Stripe",
-        "Visual Studio Code",
-        "Azure"
-      ]
+      "highlights": ["C#", ".NET", "ASP.NET Identity", "HTML", "CSS", "Stripe", "Visual Studio Code", "Azure"]
     },
     {
       "name": "454 illustrator (E-commerce website)",
@@ -331,13 +296,7 @@
       "summary": "Utilised Power Query, DAX, and visualisation tools within Power BI to analyse a fictional telecom company's dataset, examining customer churn patterns and facilitating data-driven insights for retention strategies.",
       "url": "https://app.powerbi.com/view?r=eyJrIjoiMzM1YTkwMTctNzE2Yi00YWI1LTg1Y2YtNzExMWNmMjlmOGI3IiwidCI6ImNhYmFmZjVlLWExMTMtNDJhMS1iMjliLTIwMDk2N2M0NTZmYSIsImMiOjEwfQ%3D%3D&pageName=ReportSection",
       "endDate": "2023-10-31",
-      "highlights": [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "Data Analysis",
-        "Data visualisation"
-      ]
+      "highlights": ["Power BI", "Power Query", "DAX", "Data Analysis", "Data visualisation"]
     },
     {
       "name": "Resell Track (iOS app)",
@@ -345,16 +304,7 @@
       "summary": "An iOS app written by SwiftUI that works on iPhones, iPads and Macs. It helps users organise purchased items, track their value, and record sales.",
       "url": "https://tienbui1508.github.io/projects/dev/ResellTrack/",
       "endDate": "2023-08-31",
-      "highlights": [
-        "Swift",
-        "SwiftUI",
-        "XCode",
-        "Github",
-        "Canva",
-        "AppMockUp",
-        "Test Flight",
-        "App Store Connect"
-      ]
+      "highlights": ["Swift", "SwiftUI", "XCode", "Github", "Canva", "AppMockUp", "Test Flight", "App Store Connect"]
     },
     {
       "name": "Inventory Management System (Cloud Computing Project)",
@@ -362,13 +312,7 @@
       "summary": "Use Node-RED and other cloud services and tools to develop a cloud-hosted application to assist with Inventory Management.",
       "url": "https://tienbui1508.github.io/projects/dev/U_CloudComputing/",
       "endDate": "2022-10-31",
-      "highlights": [
-        "Node-RED",
-        "NeCTAR",
-        "IBM Cloud Services",
-        "Microsoft Teams",
-        "Teamwork"
-      ]
+      "highlights": ["Node-RED", "NeCTAR", "IBM Cloud Services", "Microsoft Teams", "Teamwork"]
     },
     {
       "name": "Online Voting System (DevOps Project)",
@@ -395,14 +339,7 @@
       "summary": "A Java application designed to automate some simple and complex calculations that are common in the dive industry. The GUI was created from a text-based prototype using Apache NetBeans. Junit was used for unit testing.",
       "url": "https://tienbui1508.github.io/projects/dev/U_AppDev/",
       "endDate": "2022-05-31",
-      "highlights": [
-        "Java",
-        "JUnit",
-        "Swing",
-        "Apache NetBeans",
-        "SVN",
-        "IntelliJ"
-      ]
+      "highlights": ["Java", "JUnit", "Swing", "Apache NetBeans", "SVN", "IntelliJ"]
     },
     {
       "name": "Twitter data collection and analysis (Data Engineering)",
@@ -430,13 +367,7 @@
       "summary": "Create a database for a \"real-life\" case-study - a car rental company. Includes written conceptual model, written and code for logical and physical models.",
       "url": "https://tienbui1508.github.io/projects/da/U_DataModelling/",
       "endDate": "2021-10-31",
-      "highlights": [
-        "SQLite",
-        "SQL",
-        "VS Code",
-        "draw.io",
-        "Data modelling"
-      ]
+      "highlights": ["SQLite", "SQL", "VS Code", "draw.io", "Data modelling"]
     },
     {
       "name": "Kitchenware Content Management System (No Framework Web Dev)",
@@ -444,20 +375,7 @@
       "summary": "Without using any web frameworks, develop a XAMPP enabled website with a backend database for an e-commerce business, providing mechanisms for a web administrator to add, edit and remove content from their website.",
       "url": "https://tienbui1508.github.io/projects/dev/U_WebDev/",
       "endDate": "2021-10-31",
-      "highlights": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "PHP",
-        "MySQL",
-        "XAMPP",
-        "Git",
-        "Github",
-        "VS Code",
-        "Trello",
-        "Microsoft Teams",
-        "Teamwork"
-      ]
+      "highlights": ["HTML", "CSS", "Javascript", "PHP", "MySQL", "XAMPP", "Git", "Github", "VS Code", "Trello", "Microsoft Teams", "Teamwork"]
     }
   ],
   "volunteer": [],
