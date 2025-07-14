@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "View my Resume here, or download the PDF file.",
@@ -35,7 +42,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-customer-churn-analysis",
+            },},{id: "news-new-site-live-for-jacqaranda-books-amp-amp-vintage-your-books-amp-amp-vintage-wares-store-at-53-goodwood-road-wayville-5034-explore-it-here",
+          title: 'New site live for Jacqaranda Books &amp;amp;amp; Vintage — your books &amp;amp;amp; vintage...',
+          description: "",
+          section: "News",},{id: "projects-customer-churn-analysis",
           title: 'Customer churn analysis',
           description: "Data Analysis Project Oct 2023  Utilised Power Query, DAX, and visualisation tools within Power BI to analyse a fictional telecom company&#39;s dataset, examining customer churn patterns and facilitating data-driven insights for retention strategies.",
           section: "Projects",handler: () => {
@@ -75,6 +85,11 @@ ninja.data = [{
           description: "E-commerce App with .NET Core and Angular Sep 2024  Full-stack e-commerce app built with .NET Core 8 and Angular 18 using a multi-project architecture. It features secure ASP.NET Identity authentication, a multi-step checkout form with basket-to-order flow, Stripe payment integration, and follows Repository &amp; Unit of Work patterns. Deployed to Azure for scalable hosting.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev/ArtStore/";
+            },},{id: "projects-jacqaranda-books-amp-vintage",
+          title: 'Jacqaranda Books &amp;amp; Vintage',
+          description: "Wix website &amp; IT support Jul 2025  Responsive Wix site for a local bookstore and vintage goods store at 53 Goodwood Street—complete with SEO optimisation, custom templates and owner training materials.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dev/JacqarandaBooksandVintage/";
             },},{id: "projects-resell-track",
           title: 'Resell Track',
           description: "iOS app Sep 2023  Cross-platform SwiftUI app for iPhone, iPad and Mac that lets you organise purchases, monitor item values over time and log sales in a clean, intuitive interface.",
