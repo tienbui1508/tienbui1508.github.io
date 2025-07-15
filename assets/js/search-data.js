@@ -42,7 +42,12 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/clean_code/";
-            },},{id: "news-new-site-live-for-jacqaranda-books-amp-amp-vintage-your-books-amp-amp-vintage-wares-store-at-53-goodwood-road-wayville-5034-explore-it-here",
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-new-site-live-for-jacqaranda-books-amp-amp-vintage-your-books-amp-amp-vintage-wares-store-at-53-goodwood-road-wayville-5034-explore-the-live-bookstore-site-here",
           title: 'New site live for Jacqaranda Books &amp;amp;amp; Vintage — your books &amp;amp;amp; vintage...',
           description: "",
           section: "News",},{id: "projects-customer-churn-analysis",
