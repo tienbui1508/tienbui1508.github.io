@@ -55,3 +55,6 @@ I hold a Master of Information Technology from Flinders University and am active
 I’m passionate about **generative AI** and lean on AI-driven tools to automate workflows, improve code quality and accelerate problem-solving. My projects range from .NET Core & Angular web apps to Django back-ends and AI-powered prototypes—explore them in my [**portfolio**](/projects/).
 
 I’m now seeking an **entry-level or graduate developer role** where I can bring my fast-learning mindset, hands-on support experience and emerging AI skills to a collaborative team. Let’s connect on [**contact**](/contact/)—I’m ready to hit the ground running!
+
+<a class="btn" href="/projects">**View Projects**</a>
+<a class="btn" href="/contact">**Contact**</a>

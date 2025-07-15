@@ -2,6 +2,7 @@
 layout: default
 ---
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 <div class="post">
   <header class="post-header">
@@ -42,6 +43,14 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+     <!-- Testimonials -->
+
+    <h2 style="color: inherit">
+      testimonials
+    </h2>
+    {% include testimonials.liquid %}
+    <br>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -57,6 +66,9 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+
+
+
 
     <!-- Selected papers -->
     {% if page.selected_papers %}

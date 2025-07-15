@@ -1417,3 +1417,130 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Testimonials styling
+.testimonials-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.testimonial-card {
+  background: var(--global-card-bg-color, #fff);
+  color: var(--global-text-color, #23272f);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(30, 34, 40, 0.12);
+  padding: 1rem 1.25rem;
+  border-left: none; // Remove left border
+  font-family: "Fira Mono", "Menlo", "Monaco", "Consolas", monospace;
+  transition:
+    box-shadow 0.2s,
+    background 0.2s,
+    color 0.2s;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 4px 16px rgba(30, 34, 40, 0.18);
+}
+
+.testimonial-card blockquote {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.testimonial-card strong {
+  color: #4fc3f7;
+}
+
+.testimonial-card em {
+  color: #888;
+  font-style: normal;
+}
+
+.testimonial-photo-wrapper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-photo.placeholder {
+  background: #e0e0e0;
+  color: #b2b8c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  width: 32px;
+  height: 32px;
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  white-space: nowrap;
+}
+
+.testimonial-rating {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  font-size: 1.25rem;
+  color: #b2b8c2; // neutral for empty/half
+  margin: 0 2px;
+  vertical-align: middle;
+}
+
+.star.filled {
+  color: #ffd700; // gold
+}
+
+.star.half {
+  color: #ffd700; // gold for half
+  position: relative;
+  font-family: inherit;
+}
+
+.testimonial-rating .star.filled,
+.testimonial-rating .star.half {
+  color: #ffd700 !important; // gold
+}
+
+.testimonial-rating .star.filled i,
+.testimonial-rating .star.half i {
+  color: #ffd700 !important;
+}
+
+.testimonial-card .testimonial-content {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 0.5rem;
+  padding-right: 2px;
+  border-left: none; // Remove left border
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; // Space between left (photo+name) and right (stars)
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}

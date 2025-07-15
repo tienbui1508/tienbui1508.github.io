@@ -1,0 +1,35 @@
+<div class="row testimonials-section">
+  {% for testimonial in site.data.testimonials %}
+    <div class="col">
+      <div class="card h-100 hoverable testimonial-card">
+        <div class="card-body">
+          <div class="testimonial-header">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              {% if testimonial.photo %}
+                <img src="{{ testimonial.photo }}" alt="{{ testimonial.name }} photo" class="testimonial-photo" />
+              {% else %}
+                <div class="testimonial-photo placeholder">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+              {% endif %}
+              <span class="testimonial-name"><strong>{{ testimonial.name }}</strong>{% if testimonial.role %}, <em>{{ testimonial.role }}</em>{% endif %}</span>
+            </div>
+            <div class="testimonial-rating">
+              {% assign rating = testimonial.rating | default: 0 | floor %}
+              {% for i in (1..5) %}
+                {% if rating >= i %}
+                  <span class="star filled"><i class="fa-solid fa-star"></i></span>
+                {% else %}
+                  <span class="star"><i class="fa-regular fa-star"></i></span>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <blockquote class="testimonial-content">
+            "{{ testimonial.text }}"
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
