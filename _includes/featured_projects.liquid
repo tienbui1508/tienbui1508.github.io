@@ -1,0 +1,36 @@
+{% if site.projects %}
+
+<div class="featured-projects-container">
+  <h2>featured projects</h2>
+
+  {% assign featured_projects = site.projects | where: "featured", "true" | sort: "importance" | limit: 3 %}
+  <div class="row">
+    {% for project in featured_projects %}
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        {% if project.img %}
+        {% include figure.liquid path=project.img alt=project.title class="card-img-top" %}
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title">{{ project.title }}</h5>
+          <p class="card-text">{{ project.short_description }}</p>
+          <div class="d-flex justify-content-around">
+            <a href="{% if project.website %}{{ project.website }}{% else %}#{% endif %}" class="btn btn-sm btn-outline-primary{% if project.website %}{% else %} disabled{% endif %}">
+              Live Site
+            </a>
+            <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+              Details
+            </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+  </div>
+</div>
+
+{% endif %}
+
+

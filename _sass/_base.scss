@@ -1544,3 +1544,80 @@ figure.cover {
   justify-content: center;
   min-width: 0;
 }
+
+//buttons for about page
+
+.button-container {
+  display: flex;
+  gap: 1rem; /* Adjust the spacing between buttons as needed */
+}
+
+.button-container .btn {
+  flex: 1; /* This makes the buttons grow to fill available space equally */
+  text-align: center; /* Ensures text is centered within the button */
+
+  &:hover {
+    background-color: var(
+      --global-theme-color
+    ); /* Or a slightly lighter shade */
+    color: var(--global-bg-color);
+  }
+}
+
+/* Styles for the featured projects section */
+.featured-projects-container {
+  padding-top: 20px;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    align-items: stretch; /* Stretch items to equal height */
+  }
+
+  .card {
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition:
+      transform 0.2s ease-in-out,
+      box-shadow 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    height: 200px; /* Adjust as needed */
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+  }
+
+  .btn-sm {
+    font-size: 0.85rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+/* Tech icons on about page */
+.devicon-hover {
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease;
+  cursor: default;
+}
+
+.devicon-hover:hover {
+  transform: scale(1.7) translateY(-6px);
+  filter: brightness(1.2);
+}

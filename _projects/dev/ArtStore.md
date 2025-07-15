@@ -10,6 +10,9 @@ category: dev
 redirect: https://github.com/tienbui1508/ArtStore
 toc:
   sidebar: left
+featured: true
+short_description: Full-stack e-commerce app built with .NET Core 8 and Angular 18 for illustrators.
+website: https://artstoreweb.azurewebsites.net/
 ---
 
 `C#`

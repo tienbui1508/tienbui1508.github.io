@@ -10,6 +10,9 @@ category: dev
 related_publications: false
 toc:
   sidebar: left
+featured: true
+short_description: Modern Wix site for a local bookstore.
+website: https://www.jacqarandabooksandvintage.com.au/
 ---
 
 `Web Development`

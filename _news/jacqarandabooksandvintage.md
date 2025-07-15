@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-New site live for **Jacqaranda Books & Vintage** — your books & vintage wares store at 53 Goodwood Road, Wayville 5034! Explore it [**here**](https://www.jacqarandabooksandvintage.com.au) 🚀
+New site live for _Jacqaranda Books & Vintage_ — your books & vintage wares store at 53 Goodwood Road, Wayville 5034! [**Explore the live bookstore site here 🚀**](https://www.jacqarandabooksandvintage.com.au)
