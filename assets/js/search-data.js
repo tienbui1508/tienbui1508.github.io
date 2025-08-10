@@ -113,9 +113,9 @@ ninja.data = [{
           description: "Cloud Computing Project Oct 2022  Built a cloud-hosted inventory app using Node-RED on NeCTAR/IBM Cloud. Designed data flows for real-time stock tracking, automated low-inventory alerts, and integrated with cloud databases for seamless management.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev_uni/U_CloudComputing/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-online-voting-system",
+          title: 'Online Voting System',
+          description: "DevOps Project Oct 2022  Created a secure online voting platform and implemented DevOps practices - automated CI/CD pipelines, containerised services, infrastructure-as-code, and monitoring to streamline development and deployment.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev_uni/U_DevOps/";
             },},{id: "projects-kitchenware-content-management-system",
