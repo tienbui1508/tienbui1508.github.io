@@ -3,8 +3,9 @@ layout: page
 title: Online Voting System
 description: <strong>DevOps Project</strong><br>
   <em>Oct 2022</em> <br>
-  Created a secure online voting platform and implemented DevOps practices: automated CI/CD pipelines, containerised services, infrastructure-as-code, and monitoring to streamline development and deployment.
-importance: 3
+  Created a secure online voting platform and implemented DevOps practices - automated CI/CD pipelines, containerised services, infrastructure-as-code, and monitoring to streamline development and deployment.
+img: assets/img/devOps/devOps_1.png
+importance: 1
 category: dev_uni
 related_publications: false
 toc:
