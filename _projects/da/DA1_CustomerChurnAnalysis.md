@@ -22,9 +22,7 @@ toc:
 
 # Final report
 
-<iframe title="Customer churn analysis" width="930" height="550" src="https://app.powerbi.com/view?r=eyJrIjoiODQ4YmMzMDEtM2JmNi00NThiLWE4NDEtZjFlNDc0YWYyNjM2IiwidCI6ImNhYmFmZjVlLWExMTMtNDJhMS1iMjliLTIwMDk2N2M0NTZmYSIsImMiOjEwfQ%3D%3D&pageName=ReportSection83d234cc1bdbe978d3df" frameborder="0" allowFullScreen="true"></iframe>
-
----
+{% include elements/button.html link="/assets/pdf/project_da/Customer churn analysis.pdf" text="See the report in PDF" block=true %}
 
 # Overview
 
@@ -71,4 +69,5 @@ Investigate the underlying reasons for customer churn for a fictional telecom co
 
 ## Publish
 
-The final report and dashboard is published to Power BI Service and shared as at the top of this page. Below are the links to the report on Power BI Service, and its static PDF version 👇
+The final report and dashboard is published to Power BI Service and shared as at the top of this page.
+Note: I no longer have access to the Power BI Service version of this report. Please refer to the PDF version

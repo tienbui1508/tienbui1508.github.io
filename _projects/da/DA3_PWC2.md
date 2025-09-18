@@ -12,7 +12,7 @@ related_publications: false
 toc:
   sidebar: left
 
-redirect: https://app.powerbi.com/view?r=eyJrIjoiZWM3ZWUzNTQtZjhjYy00YThjLWFiY2UtOWJmMmE3MGI2M2FlIiwidCI6ImNhYmFmZjVlLWExMTMtNDJhMS1iMjliLTIwMDk2N2M0NTZmYSIsImMiOjEwfQ%3D%3D
+redirect: /assets/pdf/project_da/PWC - Diversity & Inclusion.pdf
 ---
 
 `Power BI`

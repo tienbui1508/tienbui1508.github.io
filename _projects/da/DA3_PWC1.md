@@ -12,7 +12,7 @@ related_publications: false
 toc:
   sidebar: left
 
-redirect: https://app.powerbi.com/view?r=eyJrIjoiODc3NzAxOGEtZTc4YS00YjlkLThjZGMtMjBiZTEzY2JiZDU5IiwidCI6ImNhYmFmZjVlLWExMTMtNDJhMS1iMjliLTIwMDk2N2M0NTZmYSIsImMiOjEwfQ%3D%3D
+redirect: /assets/pdf/project_da/PWC - Call Center, Customer and agent behaviour.pdf
 ---
 
 `Power BI`

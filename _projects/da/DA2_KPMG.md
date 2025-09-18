@@ -13,7 +13,7 @@ related_publications: false
 toc:
   sidebar: left
 
-redirect: https://app.powerbi.com/view?r=eyJrIjoiMzM1YTkwMTctNzE2Yi00YWI1LTg1Y2YtNzExMWNmMjlmOGI3IiwidCI6ImNhYmFmZjVlLWExMTMtNDJhMS1iMjliLTIwMDk2N2M0NTZmYSIsImMiOjEwfQ%3D%3D&pageName=ReportSection
+redirect: /assets/pdf/project_da/KPMG report.pdf
 ---
 
 `Power BI`
