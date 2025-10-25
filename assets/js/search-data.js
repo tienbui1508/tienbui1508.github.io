@@ -48,10 +48,13 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-new-site-live-for-jacqaranda-books-amp-amp-vintage-your-books-amp-amp-vintage-wares-store-at-53-goodwood-road-wayville-5034-explore-the-live-bookstore-site-here",
-          title: 'New site live for Jacqaranda Books &amp;amp;amp; Vintage — your books &amp;amp;amp; vintage...',
+          title: 'New site live for Jacqaranda Books &amp;amp;amp; Vintage - your books &amp;amp;amp; vintage...',
           description: "",
           section: "News",},{id: "news-temporary-downtime-artstore-project-the-artstore-demo-site-is-currently-unavailable-due-to-azure-s-free-tier-database-limit-being-reached-for-july-the-site-will-be-back-online-in-early-august-once-the-quota-resets-thanks-for-your-patience",
-          title: '📢 Temporary Downtime – ArtStore Project: The ArtStore demo site is currently unavailable...',
+          title: '📢 Temporary Downtime - ArtStore Project: The ArtStore demo site is currently unavailable...',
+          description: "",
+          section: "News",},{id: "news-my-new-project-stockpricebot-is-now-live-it-s-an-ai-powered-chatbot-that-answers-natural-language-questions-about-live-stock-prices-using-python-openai-function-calling-and-yfinance-the-chat-interface-is-built-with-gradio-making-it-simple-and-interactive-for-users-to-explore-real-market-data-in-real-time-try-the-live-chatbot-here-on-hugging-face-view-the-source-code-on-github",
+          title: 'My new project StockPriceBot is now live! 📈 It’s an AI powered chatbot...',
           description: "",
           section: "News",},{id: "projects-customer-churn-analysis",
           title: 'Customer churn analysis',
@@ -103,6 +106,11 @@ ninja.data = [{
           description: "iOS app Sep 2023  Cross-platform SwiftUI app for iPhone, iPad and Mac that lets you organise purchases, monitor item values over time and log sales in a clean, intuitive interface.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dev/ResellTrack/";
+            },},{id: "projects-stockpricebot",
+          title: 'StockPriceBot',
+          description: "Real-time Stock Price AI Chatbot Oct 2025  AI powered chatbot that answers natural language questions about live stock prices. Built in Python using yfinance for market data and OpenAI function calling for intent handling. Includes a Gradio chat interface and is deployed on Hugging Face Spaces.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dev/StockPriceBot/";
             },},{id: "projects-scuba-diving-calculation-assistant",
           title: 'Scuba Diving Calculation Assistant',
           description: "Application Development Project May 2022  Java Swing desktop tool (built in NetBeans) that automates both basic and advanced dive-industry calculations, with JUnit tests ensuring accuracy and reliability.",
