@@ -5,7 +5,7 @@ description: <strong>Wix website & IT support</strong><br>
   <em>Jul 2025</em> <br>
   Responsive Wix site for a local bookstore and vintage goods store at 53 Goodwood Street—complete with SEO optimisation, custom templates and owner training materials.
 img: /assets/img/jacqaranda/homepage.png
-importance: 1
+importance: 2
 category: dev
 related_publications: false
 toc:
