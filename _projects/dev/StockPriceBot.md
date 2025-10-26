@@ -4,7 +4,7 @@ title: StockPriceBot
 description: <strong>Real-time Stock Price AI Chatbot</strong><br>
   <em>Oct 2025</em> <br>
   AI powered chatbot that answers natural language questions about live stock prices. Built in Python using yfinance for market data and OpenAI function calling for intent handling. Includes a Gradio chat interface and is deployed on Hugging Face Spaces.
-img: assets/img/stockpricebot/screenshot.png
+img: assets/img/StockPriceBot/screenshot.png
 importance: 1
 category: dev
 redirect: https://github.com/tienbui1508/StockPriceBot

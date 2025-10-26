@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - tienbui1508/StockPriceBot
   - tienbui1508/tienbui1508.github.io
   - tienbui1508/ArtStore
   - tienbui1508/454

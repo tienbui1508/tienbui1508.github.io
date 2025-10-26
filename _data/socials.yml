@@ -49,3 +49,7 @@ linkedin_username: tienbui1508 # your LinkedIn user name
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
+custom_social:
+  logo: https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/huggingface.png
+  title: Hugging Face
+  url: https://huggingface.co/tienbui1508
