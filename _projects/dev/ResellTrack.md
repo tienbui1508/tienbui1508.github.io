@@ -5,7 +5,7 @@ description: <strong>iOS app</strong><br>
   <em>Sep 2023</em> <br>
   Cross-platform SwiftUI app for iPhone, iPad and Mac that lets you organise purchases, monitor item values over time and log sales in a clean, intuitive interface.
 img: /assets/img/resellTrack/resellTrack_appIcon.png
-importance: 4
+importance: 6
 category: dev
 related_publications: false
 toc:
